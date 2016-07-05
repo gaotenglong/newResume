@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 宋体;
+    font-size: 20px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    position: relative;
+}
+.container .top .picture img{
+    position: absolute;
+    top: 24px;
+    left: 13%;
+    height: 140px;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 4px rgba(49,132,155,0.5);
+    border-radius: 8px;
+}
+.main{
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.main ul{
+    margin-top: 20px;
+    margin-left: 140px;
+}
+.main ul li{
+    float: left;
+    padding: 6px 10px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+.main ul li.tabin{
+    border: 1px solid #000000;
+    background-color: #f2f6f8;
+    border-bottom: 0px;
+    z-index: 100;
+    position: relative;
+}
+.main .content{
+    clear: both;
+    border: 1px solid black;
+    background-color: #f2f6f8;
+    width:900px;
+    padding: 28px;
+    top: -1px;
+    position: relative;
+}
+.main .experience{
+    display: none;
+}
+.main .evaluate{
+    display: none;
+}
+.main .content p{
+    padding: 0px 10px 0px 10px;
+    line-height: 18px;
+    font-family: 宋体;
+    font-size: 18px;
+}
+.main .content .row .td{
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-family: 宋体;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.main .content .row .td:nth-child(5){
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.main .content .row>p{
+    line-height: 28px;
+}
