@@ -12,10 +12,14 @@
     padding: 30px;
     position: relative;
 }
+.header{
+    margin-left: 80px;
+    padding-top: 10px;
+}
 .container .top .picture img{
     position: absolute;
-    top: 24px;
-    left: 13%;
+    top: 26px;
+    left: 74%;
     height: 140px;
     z-index: 1;
     box-shadow: 0px 0px 10px 4px rgba(49,132,155,0.5);
@@ -23,13 +27,13 @@
 }
 .main{
     position: relative;
-    width: 900px;
+    width: 90%;
     margin: 0 auto;
     padding: 10px;
 }
 .main ul{
     margin-top: 20px;
-    margin-left: 140px;
+    margin-left: 20%;
 }
 .main ul li{
     float: left;
@@ -39,7 +43,7 @@
 }
 .main ul li.tabin{
     border: 1px solid #000000;
-    background-color: #f2f6f8;
+    background-color: #ffffff;
     border-bottom: 0px;
     z-index: 100;
     position: relative;
@@ -47,8 +51,8 @@
 .main .content{
     clear: both;
     border: 1px solid black;
-    background-color: #f2f6f8;
-    width:900px;
+    background-color: #ffffff;
+    width:100%;
     padding: 28px;
     top: -1px;
     position: relative;
@@ -64,6 +68,7 @@
     line-height: 18px;
     font-family: 宋体;
     font-size: 18px;
+    color: black;
 }
 .main .content .row .td{
     height: 20px;
