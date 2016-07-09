@@ -85,8 +85,8 @@
     margin-bottom: 10px;
 }
 .main .content .row:nth-child(2)>p{
-    margin-bottom: 10px;
-    line-height: 20px;
+    line-height: 1.4;
+    margin: 5px auto;
 }
 .main .content .row>p{
     line-height: 28px;
